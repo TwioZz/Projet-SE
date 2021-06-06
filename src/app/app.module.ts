@@ -21,7 +21,6 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatListModule } from '@angular/material/list';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatSelectModule} from '@angular/material/select';
-import { GraphComponent } from './graph/graph.component';
 import { GraphFormComponent } from './graph-form/graph-form.component';
 import { CanvasComponent } from './canvas/canvas.component';
 
@@ -29,7 +28,6 @@ import { CanvasComponent } from './canvas/canvas.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    GraphComponent,
     GraphFormComponent,
     CanvasComponent
   ],
